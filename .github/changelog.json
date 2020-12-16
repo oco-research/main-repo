@@ -1,0 +1,24 @@
+{
+  "combine": {
+    "oco-test/buddy-repo:master": {}
+  },
+  "loader": {
+    "name": "PullRequest",
+    "config": {
+      "exclude": {
+        "labels": []
+      },
+      "groupBy": {
+        "name" : "labels",
+        "config": {
+          "Enhancement": []
+        }
+      }
+    }
+  },
+  "output": {
+    "override": false,
+    "template": "pullrequest-issue",
+    "filename": "CHANGELOG.md"
+  }
+}
