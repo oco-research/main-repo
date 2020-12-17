@@ -6,13 +6,13 @@
     "name": "PullRequest",
     "config": {
       "exclude": {
-        "labels": ['release']
+        "labels": ["release"]
       },
       "groupBy": {
         "name" : "labels",
         "config": {
-          "Enhancement": ['enhancement'],
-          "Bugs": ['bug']
+          "Enhancement": ["enhancement"],
+          "Bugs": ["bug"]
         }
       }
     }
