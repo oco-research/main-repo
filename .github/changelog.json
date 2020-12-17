@@ -1,6 +1,6 @@
 {
   "combine": {
-    "oco-test/buddy-repo:master": {}
+    "oco-test/buddy-repo:main": {}
   },
   "loader": {
     "name": "PullRequest",
