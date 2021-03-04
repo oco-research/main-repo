@@ -19,7 +19,7 @@
   },
   "output": {
     "override": false,
-    "template": "pullrequest-issue",
+    "template": "pullrequest",
     "filename": "CHANGELOG.md"
   }
 }
